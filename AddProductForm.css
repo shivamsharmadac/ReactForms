@@ -1,0 +1,64 @@
+/* AddProductForm.css */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("C:\Users\lenovo\Desktop\React Forms\react-forms\public\Images\jake-gard-CetB-bTDBtY-unsplash.jpg"); /* Replace 'path-to-your-image.jpg' with the actual path to your image */
+}
+.Header {
+    
+  text-align: center;
+  color: black;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 35px;
+  border: 5px solid #ccc;
+ 
+  border-radius: 10px;
+  color: rgb(250, 10, 218);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.error-message {
+  color: #e74c3c;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
